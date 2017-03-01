@@ -1,5 +1,7 @@
 <?php
 
+namespace akturan\plistparser;
+
 class PlistParser
 {
 	private $skipTextNodes = "#text";
