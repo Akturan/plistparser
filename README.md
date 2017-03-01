@@ -1,10 +1,18 @@
 # PHP Plist Parser
 
 A PHP Class for Reading and Parsing XML Plist files 
+
+### Install
+Install using Composer.
+```
+composer require akturan/plistparser
+```
+### Quick usage
+
 ```
 require_once 'PlistParser.php';
 ```
-### Plist to Array
+#### Plist to Array
 ```
 $result = $plistParser->plistToArray("Info.plist");
 ```
@@ -57,7 +65,7 @@ Array
     [UIViewControllerBasedStatusBarAppearance] => 
 )
 ```
-## Search key in Plist file
+#### Search key in Plist file
 ```
 $result = $plistParser->searchKeyInPlist("Info.plist", "CFBundleDisplayName");
 // Test
