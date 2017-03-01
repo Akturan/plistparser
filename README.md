@@ -1,4 +1,4 @@
-# plistparser
+# PHP Plist Parser
 
 A PHP Class for Reading and Parsing XML Plist files 
 ```
