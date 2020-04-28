@@ -1,5 +1,5 @@
 {
-  "name": "akturan/plistparser",
+  "name": "zgetro/plistparser",
   "description": "A PHP Class for Reading and Parsing XML Plist files",
   "keywords": ["plistparser", "parser", "plist"],
   "license": "MIT",
