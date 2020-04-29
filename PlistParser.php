@@ -139,7 +139,7 @@ class PlistParser
 		return $array;
 	}
 
-	private function parsePlist($document)
+	public function parsePlist($document)
 	{
 		$plistNode = $document->documentElement;
 
